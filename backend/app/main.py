@@ -25,6 +25,7 @@ app.add_middleware(
         "http://127.0.0.1:5173",
         "http://localhost:5174",
         "http://127.0.0.1:5174",
+        "https://campus-x-1-a3ee.onrender.com",
     ],
     allow_credentials=True,
     allow_methods=["*"],
