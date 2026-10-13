@@ -69,7 +69,7 @@ export default function Login() {
       }
 
       
-      const profileResponse = await fetch(`${API_URL}/auth/me`, {
+      const profileResponse = await fetch(`${API_BASE}/auth/me`, {
         headers: {
           Authorization: `Bearer ${data.access_token}`,
           Accept: 'application/json',
